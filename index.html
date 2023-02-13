@@ -1,4 +1,12 @@
 
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Mi ubicación GPS</title>
+  </head>
+  <body>
+    <h1 id="location">Cargando ubicación...</h1>
     <script>
       if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function(position) {
@@ -12,5 +20,7 @@
           "Lo siento, tu navegador no soporta la ubicación GPS.";
       }
     </script>
+  </body>
+</html>
 
 
